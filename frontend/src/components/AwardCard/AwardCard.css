@@ -1,0 +1,28 @@
+.award-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 280px; /* 固定宽度 */
+  flex-shrink: 0; /* 防止卡片在 flex 布局中被压缩 */
+}
+
+.award-title {
+  font-size: 1.1rem;
+  color: #333;
+  margin: 0 0 0.5rem 0;
+}
+
+.award-members {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0 0 0.5rem 0;
+}
+
+.awarder {
+  font-size: 0.8rem;
+  color: #888;
+  margin: 0;
+  text-align: right;
+}

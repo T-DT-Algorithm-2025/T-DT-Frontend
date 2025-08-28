@@ -1,0 +1,27 @@
+.intro-section {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e9ecef;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #343a40;
+}
+
+/* 使用 Flexbox 实现网格布局 */
+.card-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* 允许换行 */
+  gap: 3rem; /* 卡片之间的间距 */
+}

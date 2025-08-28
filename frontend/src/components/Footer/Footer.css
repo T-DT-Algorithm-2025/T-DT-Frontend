@@ -1,0 +1,67 @@
+.footer-section {
+  height: 100vh;
+  width: 100%;
+  background-color: #212529; /* 深色背景 */
+  color: #adb5bd; /* 柔和的文字颜色 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.footer {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; /* 在小屏幕上换行 */
+  gap: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #495057; /* 分割线 */
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 250px; /* 保证列的最小宽度 */
+}
+
+.footer-column h3 {
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.footer-column p {
+  margin: 0.5rem 0;
+  line-height: 1.6;
+}
+
+.footer-column.links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column.links li {
+  margin-bottom: 0.8rem;
+}
+
+.footer a {
+  color: #ced4da;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #ffffff;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 2rem;
+  font-size: 0.9rem;
+}
